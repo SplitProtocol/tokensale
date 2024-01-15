@@ -22,7 +22,7 @@
 
 @media only screen and (max-height: 300px) {
     .clWindow {
-        top: 1% !important;
+        top: 90% !important;
     }
 }
 
