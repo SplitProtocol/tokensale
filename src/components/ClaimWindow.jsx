@@ -18,7 +18,7 @@ export default function ClaimWindow({provider, addr, isMetamaskActive}) {
 
     const usdcLogo = 'https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=029';
     const usdtLogo = 'https://cryptologos.cc/logos/tether-usdt-logo.png?v=029';
-    const vesplxLogo = 'https://raw.githubusercontent.com/SplitProtocol/nft/main/Split_NFT.png';
+    const vesplxLogo = 'https://splitex.app/assets/images/favicon.png?v=4edd4552';
 
     const usdtAddr = '0xc2132D05D31c914a87C6611C10748AEb04B58e8F';
     const usdcAddr = '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174';

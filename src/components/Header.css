@@ -9,6 +9,7 @@ header {
 
 .logo {
     height: 100px;
+    float: left;
 }
 
 .walletConnectButton {
@@ -45,4 +46,10 @@ header {
     float: right;
     font-size: 12pt;
     margin-top: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+    .userConnected {
+        font-size: 9pt;
+    }
 }

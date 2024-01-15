@@ -64,8 +64,8 @@ export default function App() {
     }
 
     function printAddress(addr) {
-        const p1 = (addr + '').substring(0, 7);
-        const p2 = (addr + '').slice(-5);
+        const p1 = (addr + '').substring(0, 4);
+        const p2 = (addr + '').slice(-4);
         return p1 + '...' + p2;
     }
 
