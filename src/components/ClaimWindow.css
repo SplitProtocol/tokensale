@@ -23,7 +23,7 @@
 @media only screen and (max-height: 300px) {
     .clWindow {
         top: 30% !important;
-        transform: translate(-1%, -50%);
+        transform: translate(-50%, -1%);
     }
 }
 
