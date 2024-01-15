@@ -1,0 +1,50 @@
+.aInputDiv {
+    text-align: left;
+    width: 95%;
+    background-color: #333;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    float: left;
+}
+
+.aInput {
+    width: 55%;
+    margin: 10px;
+    font-size: 20pt;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.aInput:focus {
+    outline: none !important;
+}
+
+.aLabel {
+    margin: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10pt;
+}
+
+.aTokenImage {
+    height: 35px;
+}
+
+.aTokenSymbol {
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18pt;
+    color: white;
+    float: right;
+}
+
+.aExtraField {
+    float: right;
+    font-size: 10pt;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}

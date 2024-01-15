@@ -1,0 +1,48 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 20;
+}
+
+.logo {
+    height: 100px;
+}
+
+.walletConnectButton {
+    float: right;
+    margin: 30px;
+    height: 50px;
+    width: 150px;
+    font-size: 12pt;
+    border-radius: 20px;
+    background-color: orange;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.walletConnected {
+    float: right;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #222;
+    border: 1px solid orange;
+    border-radius: 30px;
+    box-shadow: 0px 0px 40px rgba(255, 165, 0, 0.3);
+}
+
+.chainConnected {
+    height: 25px;
+    margin-right: 10px;
+    float: left;
+}
+
+.userConnected {
+    color: white;
+    float: right;
+    font-size: 12pt;
+    margin-top: 3px;
+}

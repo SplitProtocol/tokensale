@@ -1,0 +1,19 @@
+.chooseButton {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color: #555;
+    border: 1px solid #666;
+    margin: 5px;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+.chooseButtonImage {
+    height: 25px;
+    margin: 5px;
+}
+
+.chooseButtonText {
+    float: right;
+    margin-top: 8px;
+}
