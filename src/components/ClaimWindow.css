@@ -14,9 +14,9 @@
     padding: 10px;
 }
 
-@media only screen and (max-height: 900px) {
+@media only screen and (max-height: 700px) {
     .clWindow {
-        top: 70% !important;
+        top: 80% !important;
     }
 }
 
