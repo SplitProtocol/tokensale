@@ -20,6 +20,12 @@
     }
 }
 
+@media only screen and (max-height: 300px) {
+    .clWindow {
+        top: 1% !important;
+    }
+}
+
 .clHead {
     color: white;
     font-family: 'Poppins', sans-serif;
