@@ -15,8 +15,6 @@ export default function App() {
         if (window.ethereum) {
             const p = new ethers.BrowserProvider(window.ethereum);
             setProvider(p);
-        } else {
-            alert("Please install Metamask");
         }
     }, []);
 
