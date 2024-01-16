@@ -107,7 +107,7 @@ export default function ClaimWindow({provider, addr, isMetamaskActive}) {
         firstDataLoad(usdtAddr);
     }, [firstDataLoad]);
 
-    const claimButtonDisabledCondition = ((new BigNumber(usdAmount).gt(new BigNumber(10000))) || (new BigNumber(usdAmount).lt(new BigNumber(100))) || !isMetamaskActive || (new BigNumber(usdAmount).multipliedBy(new BigNumber(10).pow(new BigNumber(tokenDecimals).negated())).gt(new BigNumber(balanceWEI))));
+    const claimButtonDisabledCondition = ((new BigNumber(usdAmount).gt(new BigNumber(10000))) || (new BigNumber(usdAmount).lt(new BigNumber(50))) || !isMetamaskActive || (new BigNumber(usdAmount).multipliedBy(new BigNumber(10).pow(new BigNumber(tokenDecimals).negated())).gt(new BigNumber(balanceWEI))));
     const claimButtonShowedCondition = new BigNumber(usdAmount).multipliedBy(new BigNumber(10).pow(new BigNumber(tokenDecimals).negated())).lte(new BigNumber(allowanceWEI)) || approvalSuccess;
 
     async function approveToken() {
