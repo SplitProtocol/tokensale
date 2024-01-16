@@ -22,7 +22,7 @@ export default function ClaimWindow({provider, addr, isMetamaskActive}) {
 
     const usdtAddr = '0xc2132D05D31c914a87C6611C10748AEb04B58e8F';
     const usdcAddr = '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174';
-    const splxSaleAddr = '0xD18C7734B5b917fcA1dB513535C60B792b45f43F';
+    const splxSaleAddr = '0xcE861C6360A061354D18668BEbC7aa2A76bBf5c7';
 
     async function getTokenBalance(tokenAddr) {
         if (!isMetamaskActive) {
