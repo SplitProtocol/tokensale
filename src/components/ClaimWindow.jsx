@@ -22,7 +22,7 @@ export default function ClaimWindow({provider, addr, isMetamaskActive}) {
 
     const usdtAddr = '0xc2132D05D31c914a87C6611C10748AEb04B58e8F';
     const usdcAddr = '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174';
-    const splxSaleAddr = '0xdF1138A20DcFa21bF562a6D84b4B0901C7F709C3';
+    const splxSaleAddr = '0x94e4243Ad15BC5Fd52Bb7fBc30dba29128F37E2a';
 
     async function getTokenBalance(tokenAddr) {
         if (!isMetamaskActive) {
@@ -107,7 +107,7 @@ export default function ClaimWindow({provider, addr, isMetamaskActive}) {
         firstDataLoad(usdtAddr);
     }, [firstDataLoad]);
 
-    const claimButtonDisabledCondition = ((new BigNumber(usdAmount).gt(new BigNumber(10000))) || (new BigNumber(usdAmount).lt(new BigNumber(50))) || !isMetamaskActive || (new BigNumber(usdAmount).multipliedBy(new BigNumber(10).pow(new BigNumber(tokenDecimals).negated())).gt(new BigNumber(balanceWEI))));
+    const claimButtonDisabledCondition = (!isMetamaskActive || (new BigNumber(usdAmount).multipliedBy(new BigNumber(10).pow(new BigNumber(tokenDecimals).negated())).gt(new BigNumber(balanceWEI))));
     const claimButtonShowedCondition = new BigNumber(usdAmount).multipliedBy(new BigNumber(10).pow(new BigNumber(tokenDecimals).negated())).lte(new BigNumber(allowanceWEI)) || approvalSuccess;
 
     async function approveToken() {
